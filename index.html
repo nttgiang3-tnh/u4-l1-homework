@@ -34,7 +34,7 @@
     .toolbtn svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
     .deck{position:relative;min-height:0;overflow:hidden}
     .slide{position:absolute;inset:0;padding:16px clamp(16px,3vw,40px);overflow-y:auto;opacity:0;visibility:hidden;transform:translateX(18px);transition:opacity .25s ease,transform .25s ease;display:grid;align-content:start}
-    .slide[data-slide="0"],.slide[data-slide="1"],.slide[data-slide="10"]{align-content:center}
+    .slide[data-slide="0"],.slide[data-slide="1"]{align-content:center}
     .slide.active{opacity:1;visibility:visible;transform:none;z-index:1}
     @media(prefers-reduced-motion:reduce){.slide{transition:none}.pulse{animation:none!important}}
     h1,h2,h3{font-family:"Bricolage Grotesque",sans-serif;margin:0;line-height:1.05;color:var(--ink)}
